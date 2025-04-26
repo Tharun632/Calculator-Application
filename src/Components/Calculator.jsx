@@ -16,7 +16,7 @@ function Calculator(){
         <div className='container mx-auto sm:container sm:mx-auto my-16 sm:my-16 lg:my-16 xl:my-16'>
             <h1 className='text-3xl sm:text-4xl font-semibold sm:font-semibold  text-center sm:text-center sm:tracking-wide tracking-wide py-4 sm:py-4'>Calculator</h1>
             <div className='flex sm:flex-col flex-col sm:justify-center justify-center sm:items-center items-center'>
-            <div className="max-w-[100%] sm:max-w-[50%] min-h-[400px] sm:min-h-[600px] bg-white/90 border-2 border-slate-500">
+            <div className="max-w-[100%] sm:max-w-[50%] min-h-[400px] sm:min-h-[500px] bg-white/90 border-2 border-slate-500">
                 <input type="text" placeholder="0" id="answer" value = {result} 
                 className='w-[80%] sm:w-[100%] h-[100px] sm:h-[100px] bg-white/90 text-gray-600 sm:text-gray-600  sm:text-right text-right sm:p-2 p-2 text-2xl sm:text-3xl font-semibold sm:font-semibold border-2 border-slate-600'/>
                 <input type="button" value = "(" className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-3xl sm:text-3xl '
