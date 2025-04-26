@@ -18,45 +18,45 @@ function Calculator(){
             <div className='flex sm:flex-col flex-col sm:justify-center justify-center sm:items-center items-center'>
             <div className="max-w-[100%] sm:max-w-[50%] min-h-[400px] sm:min-h-[600px] bg-white/90 border-2 border-slate-500">
                 <input type="text" placeholder="0" id="answer" value = {result} 
-                className='w-[80%] sm:w-[100%] h-[100px] sm:h-[100px] bg-white/90 text-gray-600 sm:text-gray-600  sm:text-right text-right sm:p-2 p-2 text-3xl sm:text-3xl font-semibold sm:font-semibold border-2 border-slate-600'/>
+                className='w-[80%] sm:w-[100%] h-[100px] sm:h-[100px] bg-white/90 text-gray-600 sm:text-gray-600  sm:text-right text-right sm:p-2 p-2 text-2xl sm:text-3xl font-semibold sm:font-semibold border-2 border-slate-600'/>
                 <input type="button" value = "(" className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-3xl sm:text-3xl '
                  onClick = {handleClick}/>
-                <input type="button" value = ")" className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-3xl sm:text-3xl ' 
+                <input type="button" value = ")" className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-2xl sm:text-3xl ' 
                 onClick = {handleClick}/>
-                <input type="button" value = "%" className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-3xl sm:text-3xl' 
+                <input type="button" value = "%" className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-2xl sm:text-3xl' 
                 onClick = {handleClick}/>
-                <input type="button" value = "AC" className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-3xl sm:text-3xl' 
+                <input type="button" value = "AC" className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-2xl sm:text-3xl' 
                 onClick = {Cleardisplay}/>
-                <input type="button" value = '7' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-3xl sm:text-3xl' 
+                <input type="button" value = '7' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-2xl sm:text-3xl' 
                 onClick = {handleClick}/>
-                <input type="button" value = '8' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-3xl sm:text-3xl' 
+                <input type="button" value = '8' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-2xl sm:text-3xl' 
                 onClick = {handleClick}/>
-                <input type="button" value = '9' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-3xl sm:text-3xl'
+                <input type="button" value = '9' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-2xl sm:text-3xl'
                  onClick = {handleClick}/>
-                <input type="button" value = '/' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-3xl sm:text-3xl' 
+                <input type="button" value = '/' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-2xl sm:text-3xl' 
                 onClick = {handleClick}/>
-                <input type="button" value = '4' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-3xl sm:text-3xl'
+                <input type="button" value = '4' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-2xl sm:text-3xl'
                  onClick = {handleClick}/>
-                <input type="button" value = '5' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-3xl sm:text-3xl'
+                <input type="button" value = '5' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-2xl sm:text-3xl'
                  onClick = {handleClick}/>
-                <input type="button" value = '6' className='w-[25%] h-[100px] bg-slate-800 text-white text-3xl sm:text-3xl'
+                <input type="button" value = '6' className='w-[25%] h-[100px] bg-slate-800 text-white text-2xl sm:text-3xl'
                  onClick = {handleClick}/>
-                <input type="button" value = '*' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-3xl sm:text-3xl' 
+                <input type="button" value = '*' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-2xl sm:text-3xl' 
                 onClick = {handleClick}/>  
-                <input type="button" value = '1' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-3xl sm:text-3xl'
+                <input type="button" value = '1' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-2xl sm:text-3xl'
                  onClick = {handleClick}/>
-                <input type="button" value = '2' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-3xl sm:text-3xl' 
+                <input type="button" value = '2' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-2xl sm:text-3xl' 
                 onClick = {handleClick}/>  
-                <input type="button" value = '3' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-3xl sm:text-3xl'
+                <input type="button" value = '3' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-2xl sm:text-3xl'
                  onClick = {handleClick}/>
-                <input type="button" value = '-' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-3xl sm:text-3xl'  
+                <input type="button" value = '-' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-2xl sm:text-3xl'  
                 onClick = {handleClick}/>
                 <input type="button" value = '0' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-3xl sm:text-3xl' 
                 onClick = {handleClick}/>
-                <input type="button" value="." className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-3xl sm:text-3xl' onClick={handleClick} />
-                <input type="button" value = '=' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-3xl sm:text-3xl' 
+                <input type="button" value="." className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-2xl sm:text-3xl' onClick={handleClick} />
+                <input type="button" value = '=' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-2xl sm:text-3xl' 
                 onClick = {Calculate} />
-                <input type="button" value = '+' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-3xl sm:text-3xl' 
+                <input type="button" value = '+' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-2xl sm:text-3xl' 
                 onClick = {handleClick}/>
             </div>
             </div>
