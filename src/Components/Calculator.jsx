@@ -20,7 +20,7 @@ function Calculator(){
                 <input type="text" placeholder="0" id="answer" value = {result} 
                 className='w-[100%] sm:w-[100%] h-[100px] sm:h-[100px] bg-white/90 text-gray-600 sm:text-gray-600  sm:text-right text-right sm:p-2 p-2 text-3xl sm:text-3xl font-semibold sm:font-semibold border-2 border-slate-600'/>
                 <input type="button" value = "(" className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-2xl sm:text-3xl '
-                 onClick = {handleClick}/>
+                onClick = {handleClick}/>
                 <input type="button" value = ")" className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-2xl sm:text-3xl ' 
                 onClick = {handleClick}/>
                 <input type="button" value = "%" className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-2xl sm:text-3xl' 
@@ -39,7 +39,7 @@ function Calculator(){
                  onClick = {handleClick}/>
                 <input type="button" value = '5' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-2xl sm:text-3xl'
                  onClick = {handleClick}/>
-                <input type="button" value = '6' className='w-[25%] h-[100px] bg-slate-800 text-white text-3xl sm:text-3xl'
+                <input type="button" value = '6' className='w-[25%] h-[100px] bg-slate-800 text-white text-2xl sm:text-3xl'
                  onClick = {handleClick}/>
                 <input type="button" value = '*' className='w-[25%] h-[100px] bg-slate-800 text-white border-2 border-r-white text-2xl sm:text-3xl' 
                 onClick = {handleClick}/>  
