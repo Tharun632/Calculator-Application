@@ -13,7 +13,7 @@ function Calculator(){
         setResult(eval(result).toString());
      }
     return(
-        <div className='container mx-auto my-16 sm:my-16 lg:my-16 xl:my-16'>
+        <div className='container mx-auto sm:container sm:mx-auto my-16 sm:my-16 lg:my-16 xl:my-16'>
             <h1 className='text-3xl sm:text-4xl font-semibold sm:font-semibold  text-center sm:text-center sm:tracking-wide tracking-wide py-4 sm:py-4'>Calculator</h1>
             <div className='flex sm:flex-col flex-col sm:justify-center justify-center sm:items-center items-center'>
             <div className="w-[400px] sm:w-[500px] min-h-[400px] sm:min-h-[600px] bg-white/90 border-2 border-slate-500">
